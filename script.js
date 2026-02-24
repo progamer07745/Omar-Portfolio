@@ -10,7 +10,7 @@
 
         function nextChar() {
             if (i <= current.length) {
-                el.innerHTML = current.substring(0, i) + '<span style="opacity:0.6;">|</span>';
+                el.innerHTML = current.substring(0, i) + '<span class="typing-cursor">|</span>';
                 i++;
                 setTimeout(nextChar, 80);
             } else {
@@ -20,7 +20,7 @@
 
         function erase() {
             if (i >= 0) {
-                el.innerHTML = current.substring(0, i) + '<span style="opacity:0.6;">|</span>';
+                el.innerHTML = current.substring(0, i) + '<span class="typing-cursor">|</span>';
                 i--;
                 setTimeout(erase, 40);
             } else {
@@ -50,8 +50,7 @@
         revealObserver.observe(el);
     });
 
-    const frontendProjects = [
-        {
+    const frontendProjects = [{
             title: "Istighfar Counter",
             category: "website",
             img: "Images/i.png",
@@ -89,7 +88,7 @@
         if (!projectGrid) return;
         projectGrid.innerHTML = '';
         const fragment = document.createDocumentFragment();
-        
+
         frontendProjects.forEach(project => {
             const card = document.createElement('div');
             card.className = 'project-card glass-card';
@@ -105,14 +104,5 @@
         projectGrid.appendChild(fragment);
     }
     renderProjects();
-
-    const projectFilterBtns = document.querySelectorAll('#projectFilterBar .filter-btn');
-    projectFilterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            projectFilterBtns.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            renderProjects();
-        });
-    });
 
 })();

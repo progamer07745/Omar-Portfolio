@@ -222,7 +222,6 @@ h2 {
     min-height: 4rem;
     font-size: 2.2rem;
     font-weight: 500;
-    border-right: 3px solid #5ef0ff;
     width: fit-content;
     padding-right: 8px;
 }
@@ -1040,6 +1039,19 @@ h2 {
 
     section:first-of-type {
         padding-top: 120px;
+    }
+
+    #typing-title {
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    #typing-title span {
+        font-size: 1.2rem !important;
+        vertical-align: middle;
+        margin-left: 2px;
     }
 
     nav {
