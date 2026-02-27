@@ -388,6 +388,10 @@ h2 {
     letter-spacing: 0.5px;
 }
 
+.skill-item img[alt="JavaScript"] {
+    border-radius: 10px;;
+}
+
 /* services */
 .services-grid {
     display: grid;
