@@ -52,31 +52,26 @@
 
     const frontendProjects = [{
             title: "Istighfar Counter",
-            category: "website",
             img: "Images/i.png",
             website: "https://istighfar-counter.pages.dev"
         },
         {
             title: "Trio Coders Portfolio",
-            category: "landing",
             img: "Images/u.png",
             website: "https://tc-portfolio-2026.pages.dev"
         },
         {
             title: "Study Buddy",
-            category: "website",
             img: "Images/w.png",
             website: "https://study-buddy-ev9.pages.dev"
         },
         {
             title: "Client Portfolio",
-            category: "website",
             img: "Images/m.png",
             website: "https://mohamedkhaledfap2-afk.github.io/MK_Project/"
         },
         {
             title: "Client Portfolio",
-            category: "website",
             img: "Images/AR.png",
             website: "https://mohamedkhaledfap2-afk.github.io/Ar_projects/"
         }
