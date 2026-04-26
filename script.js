@@ -69,16 +69,59 @@
       revealObserver.observe(el);
     });
 
+  // const frontendProjects = [
+  //   {
+  //     title: "Istighfar Counter",
+  //     img: "Images/istighfarWeb.png",
+  //     website: "https://istighfar-counter.pages.dev",
+  //   },
+  //   {
+  //     title: "Trio Coders Portfolio",
+  //     img: "Images/TrioCoders.png",
+  //     website: "https://tc-portfolio-2026.pages.dev",
+  //   },
+  //   {
+  //     title: "Study Buddy",
+  //     img: "Images/StudyBuddy.png",
+  //     website: "https://study-buddy-ev9.pages.dev",
+  //   },
+  //   {
+  //     title: "Client Portfolio",
+  //     img: "Images/MK.png",
+  //     website: "https://mkhaled.pages.dev",
+  //   },
+  //   {
+  //     title: "Client Portfolio",
+  //     img: "Images/AR.png",
+  //     website: "https://mohamedkhaledfap2-afk.github.io/Ar_projects/",
+  //   },
+  //   {
+  //     title: "Link-In-Bio",
+  //     img: "Images/englishawy.png",
+  //     website: "https://mrenglishawy-media.pages.dev",
+  //   },
+  // ];
+
   const frontendProjects = [
-    {
-      title: "Istighfar Counter",
-      img: "Images/istighfarWeb.png",
-      website: "https://istighfar-counter.pages.dev",
-    },
     {
       title: "Trio Coders Portfolio",
       img: "Images/TrioCoders.png",
       website: "https://tc-portfolio-2026.pages.dev",
+    },
+    {
+      title: "Client Portfolio - MK Project",
+      img: "Images/MK.png",
+      website: "https://mkhaled.pages.dev",
+    },
+    {
+      title: "Client Portfolio - AR Project",
+      img: "Images/AR.png",
+      website: "https://mohamedkhaledfap2-afk.github.io/Ar_projects/",
+    },
+    {
+      title: "Mr. Englishawy Link-In-Bio",
+      img: "Images/englishawy.png",
+      website: "https://mrenglishawy-media.pages.dev",
     },
     {
       title: "Study Buddy",
@@ -86,19 +129,9 @@
       website: "https://study-buddy-ev9.pages.dev",
     },
     {
-      title: "Client Portfolio",
-      img: "Images/MK.png",
-      website: "https://mohamedkhaledfap2-afk.github.io/MK_Project/",
-    },
-    {
-      title: "Client Portfolio",
-      img: "Images/AR.png",
-      website: "https://mohamedkhaledfap2-afk.github.io/Ar_projects/",
-    },
-    {
-      title: "Link-In-Bio",
-      img: "Images/englishawy.png",
-      website: "https://mrenglishawy-media.pages.dev",
+      title: "Istighfar Counter",
+      img: "Images/istighfarWeb.png",
+      website: "https://istighfar-counter.pages.dev",
     },
   ];
 
