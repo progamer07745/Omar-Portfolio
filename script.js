@@ -133,6 +133,11 @@
       img: "Images/istighfarWeb.png",
       website: "https://istighfar-counter.pages.dev",
     },
+    {
+      title: "Trio Coders Link-In-Bio",
+      img: "Images/TrioCoders-Links.png",
+      website: "https://triocoders-media.pages.dev"
+    }
   ];
 
   const projectGrid = document.getElementById("projectsGrid");
