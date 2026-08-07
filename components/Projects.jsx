@@ -87,7 +87,7 @@ export default function Projects() {
                       <i className="fa-solid fa-lock" /> Live
                     </a>
                   )}
-                  {p.code ? (
+                  {/* {p.code ? (
                     <a href={p.code} target="_blank" rel="noreferrer" className="btn btn-primary btn-sm">
                       <i className="fa-brands fa-github" /> Code
                     </a>
@@ -95,7 +95,7 @@ export default function Projects() {
                     <a className="btn btn-primary btn-sm" aria-disabled="true">
                       <i className="fa-brands fa-github" /> Code
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
             </Reveal>

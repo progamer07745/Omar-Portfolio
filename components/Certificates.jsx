@@ -36,32 +36,32 @@ export default function Certificates() {
               {featured.map((c, i) => {
                 const level = getLevel(c.title);
                 return (
-                  <Reveal
-                    key={c.title}
-                    delay={i * 110}
-                    className={`cert-premium lv-${level || i + 1}`}
-                  >
-                    <span className="cert-premium-badge">
-                      <i className="fa-solid fa-star" /> Certified
-                    </span>
-
-                    {level && (
-                      <span className="cert-premium-level">
-                        <i className="fa-solid fa-medal" /> Level {level}
+                  <Reveal key={c.title} delay={i * 110} className="cert-premium-wrap">
+                    <div className={`cert-premium lv-${level || i + 1}`}>
+                      <span className="cert-premium-badge">
+                        <i className="fa-solid fa-star" /> Certified
                       </span>
-                    )}
 
-                    <button
-                      type="button"
-                      className="cert-premium-btn"
-                      onClick={() => setActive(c)}
-                      aria-label={`Open certificate: ${c.title}`}
-                    >
-                      <div className="cert-premium-img">
-                        <img src={c.image} alt={c.title} loading="lazy" />
+                      {level && (
+                        <span className="cert-premium-level">
+                          <i className="fa-solid fa-medal" /> Level {level}
+                        </span>
+                      )}
+
+                      <div className="cert-premium-inner">
+                        <button
+                          type="button"
+                          className="cert-premium-btn"
+                          onClick={() => setActive(c)}
+                          aria-label={`Open certificate: ${c.title}`}
+                        >
+                          <div className="cert-premium-img">
+                            <img src={c.image} alt={c.title} loading="lazy" />
+                          </div>
+                          <h3>{c.title}</h3>
+                        </button>
                       </div>
-                      <h3>{c.title}</h3>
-                    </button>
+                    </div>
                   </Reveal>
                 );
               })}

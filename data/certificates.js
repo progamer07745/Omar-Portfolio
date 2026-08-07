@@ -16,11 +16,11 @@ export const certificates = [
     image: "/images/tofas-level-2.png",
     featured: true,
   },
-  {
-    title: "TOFAS Certified (Level 3) — Academic Assessment in Front-End Development",
-    image: "/images/tofas-level-3.png",
-    featured: true,
-  },
+  // {
+  //   title: "TOFAS Certified (Level 3) — Academic Assessment in Front-End Development",
+  //   image: "/images/tofas-level-3.png",
+  //   featured: true,
+  // },
   {
     title: "ReactJS Professional Certification — SkillUp / Simplilearn",
     image: "/images/reactjs-skillup.png",
