@@ -1,0 +1,25 @@
+{
+  "name": "omar-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Omar Mostafa — Full Stack JS Developer (MERN) portfolio built with Next.js + Tailwind CSS v4",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "find out -name '*.txt' -type f -delete 2>/dev/null || true",
+    "start": "next start",
+    "lint": "eslint",
+    "preview": "npx --yes serve out"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "tailwindcss": "^4"
+  }
+}
